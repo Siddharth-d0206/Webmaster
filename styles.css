@@ -67,3 +67,10 @@ video#bg-video {
     background-color: #f0f0f0; 
     color: #000; 
 }
+
+.MissionHeader{
+    text-align: center;
+    border-color: black;
+    color:green;
+    border-style: solid;
+}
