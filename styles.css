@@ -1,19 +1,18 @@
 @import 'nav.css';
 @import 'footer.css';
 @import 'containers.css';
-/* Reset some default styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Set default font */
 body {
     font-family: Arial, sans-serif;
 }
 
-/* Set a minimum height for the body and make it scrollable */
+
 html, body {
     height: 100%;
     overflow: auto;
