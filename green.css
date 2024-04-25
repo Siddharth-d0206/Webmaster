@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+     background-image: url('solarfarm.jpg');
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+.container {
+    margin:30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    color: #0a7138;
+}
+p {
+    line-height: 1.6;
+}
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
