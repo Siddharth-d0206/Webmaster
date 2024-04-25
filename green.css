@@ -1,10 +1,9 @@
 body {
     font-family: Arial, sans-serif;
      background-image: url('solarfarm3.jpg');
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
+     background-position: center;
+     background-size:cover;
+     background-attachment: fixed;
 }
 .container {
     margin:30px;
