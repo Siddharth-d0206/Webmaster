@@ -99,3 +99,8 @@ ul {
 .button:hover {
   background-color: #555;
 }
+
+.logo1{
+height:50px;
+border-radius:20px;
+}
