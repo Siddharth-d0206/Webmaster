@@ -9,12 +9,13 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1300px;
+   
     margin: 50px auto;
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius:20px;
+    
 }
 
 h2 {
@@ -46,4 +47,60 @@ ul {
 
 .social-icons a:hover {
     text-decoration: underline;
+}
+/* Three columns side by side */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: calc(33.3% - 16px);
+  margin-bottom:16px;
+  padding: 0 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius:20px;
+}
+
+.card img{
+  border-radius:20px;
+  margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 650px) {
+  .card {
+    width: 100%;
+  }
+}
+
+
+.container {
+  padding: 16px;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.logo1{
+height:50px;
+border-radius:20px;
 }
