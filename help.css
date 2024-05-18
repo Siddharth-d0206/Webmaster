@@ -1,6 +1,14 @@
+body{
+  background-image:url('pexels-pixabay-270756.jpg');
+  background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
 .article-container {
     width: 80%;
     margin: 0 auto;
+   
   }
   
   .intro {
@@ -90,6 +98,26 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+
+.the{
+  color: white;
+  font-size: 15px;
+  font-weight:bold;
+  text-shadow: -1px 1px 0 #000,
+  1px 1px 0 #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000;
+  /* Why is that Pringles is one ugly ass mofo */
+}
+.bold{
+  Font-weight: bold;
+ font-size:18px;
+ text-shadow: -1px 1px 0 #000,
+ 1px 1px 0 #fff,
+ 1px -1px 0 #fff,
+ -1px -1px 0 #fff;
 }
 
 /* Additional styles can be added as needed */
