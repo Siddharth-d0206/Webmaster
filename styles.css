@@ -80,3 +80,13 @@ video#bg-video {
     width: 10%;
     height: 10%;
 }
+
+.quadrant-text{
+    color: white;
+    font-size: 15px;
+    font-weight:bold;
+    text-shadow: -1px 1px 0 #9a9999,
+    1px 1px 0 #9a9999,
+    1px -1px 0 #9a9999,
+    -1px -1px 0 #9a9999;
+}
