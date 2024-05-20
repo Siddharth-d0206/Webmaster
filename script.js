@@ -3,11 +3,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const navLinks = document.getElementById('nav-links');
 
     toggleButton.addEventListener('click', () => {
-        if (navLinks.style.display === 'flex' || navLinks.style.display === '') {
-            navLinks.style.display = 'none';
-        } else {
+        const currentDisplay = window.getComputedStyle(navLinks).display;
+        
+        if (currentDisplay === 'none') {
             navLinks.style.display = 'flex';
+        } else {
+            navLinks.style.display = 'none';
         }
     });
 });
-``
