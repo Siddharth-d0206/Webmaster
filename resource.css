@@ -2,9 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image:url(pexels-james-wheeler-417074.jpg);
+    background-image: url('pexels-james-wheeler-417074.jpg');
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -38,4 +38,80 @@ ul {
     padding: 0;
 }
 
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .container {
+        margin: 15px auto;
+        padding: 15px;
+    }
 
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    section {
+        margin-bottom: 20px;
+    }
+
+    body {
+        background-attachment: scroll; /* Fixes background attachment issue on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        margin: 5px auto;
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    section {
+        margin-bottom: 15px;
+    }
+
+    ul {
+        padding-left: 20px; /* Add left padding to ul for better readability */
+    }
+
+    body {
+        background-attachment: scroll; /* Ensuring smoother scrolling on very small screens */
+    }
+}
